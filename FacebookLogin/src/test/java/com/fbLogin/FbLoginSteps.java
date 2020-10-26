@@ -46,6 +46,7 @@ System.setProperty("webdriver.chrome.driver","C:\\Driver\\chromedriver.exe");
 		WebElement singin = driver.findElement(By.xpath("//*[@type='submit']"));
 		singin.click();
 	   
+		System.out.println("facebook testing");
 	    
 	}
 
